@@ -1,7 +1,4 @@
-let  guestList : string[] = ['Sara','Faiza','Ali']
+let guestList: string[] = ["Sara", "Ali", "Neha"];
 
-for (let i = 0 ; i < guestList.length; i++){
-    console.log(`Dear ${guestList[i]}, \n You are warmly invited to dinner. `)
-}
-
+guestList.forEach(listGuest => console.log(`Asslam o Alikum ${listGuest}, \n You are warmly invited for a dinner with me`))
 
