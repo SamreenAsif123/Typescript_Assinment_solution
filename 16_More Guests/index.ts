@@ -34,6 +34,8 @@ guestList.splice(middleGuestName, 0 , "Marium")
 //Updated list of Our Guest 
 console.log ('--------Updated Guest list----------')
 
+
+//Print message to updated list
 guestList.forEach( oneGuest=> {
     console.log(`Asslam o Alikum ${oneGuest}, \n  Would you like to dinner with me?`)
 });
